@@ -4,7 +4,7 @@
 # error BUFFER_SIZE not greater than 0
 #endif
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 #include <limits.h>
 #include <unistd.h>
 #include <stdlib.h>
