@@ -19,6 +19,10 @@ struct s_line
 	size_t	maxsize;
 	char	*data;
 };
+
+char	*ft_realloc(char *oldptr, size_t newsize, size_t oldsize);
+int		push_char(char ch, t_line *line);
+int		read_line(int fd, t_line *line, t_file *file);
 # endif
 
 char	*get_next_line(int fd);
